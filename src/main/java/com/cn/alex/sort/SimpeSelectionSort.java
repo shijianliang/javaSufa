@@ -1,5 +1,15 @@
 package com.cn.alex.sort;
 
+/**
+ * 简单选择排序
+ * 每次找到 最小值（最大值），然后定位该元素
+ * 例如3，2，1
+ * 第一次找到最小1 放到第一个位置
+ * 第二次在剩下的3,2中找到最小的2 放到第二个位置
+ *
+ * 二元选择排序
+ * 每次找大最大值和最小值
+ */
 public class SimpeSelectionSort {
     public void sort(int[] a){
 
